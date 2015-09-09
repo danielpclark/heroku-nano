@@ -1,0 +1,10 @@
+src/*.o
+src/.deps
+.vagrant/
+Makefile
+config.*
+doc/nanorc.sample
+po/Makefile.in
+po/POTFILES
+stamp-h1
+.DS_Store
