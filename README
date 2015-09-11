@@ -32,11 +32,19 @@ How to compile and install nano
 
      It's that simple.  Use --prefix with configure to override the
      default installation directory of /usr/local.
-     
+
      If you configured with the "--enable-nanorc" option, after
      installation you might copy the doc/nanorc.sample to your home
      directory, rename it to ".nanorc", and then edit it according to
      your taste.
+
+Building with Vagrant
+
+	There's already a Vagrantfile which includes pre-req installation and
+	configure/make, and moves the resulting binary to the root folder.
+	So just do "vagrant up" and when it finishes, you'll have the "nano" binary
+	in the current folder.
+
 
 Web Page
 
