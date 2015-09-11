@@ -42,8 +42,8 @@ Building with Vagrant
 
 	There's already a Vagrantfile which includes pre-req installation and
 	configure/make, and moves the resulting binary to the root folder.
-	So just do "vagrant up" and when it finishes, you'll have the "nano" binary
-	in the current folder.
+	So just do "vagrant up" and when it finishes, you'll have the "nano"
+	binary in the current folder.
 
 
 Web Page
